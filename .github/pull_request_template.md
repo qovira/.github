@@ -10,13 +10,9 @@
 
 ## Related issue
 
-<!--
-  Link the Linear issue with a magic word so it auto-completes on merge to the
-  default branch, e.g. `Closes QOV-123`. Use a non-closing word (`Refs QOV-123`)
-  for a partial change. Link any GitHub issue this resolves the same way.
--->
+<!-- Link any GitHub issue this PR closes, e.g. `Closes #123`. -->
 
-Closes 
+Closes #
 
 ## Type of change
 
