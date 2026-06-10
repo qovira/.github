@@ -1,0 +1,69 @@
+name: Bug Report
+description: Something isn't working as documented
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a report. Please **search existing
+        issues** first — a quick check saves everyone a round-trip.
+  - type: checkboxes
+    attributes:
+      label: Pre-flight
+      options:
+        - label: I searched the existing issues and this isn't a duplicate.
+          required: true
+        - label: I'm on the latest released version.
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: Affected version
+      description: The package version or commit where you hit this.
+      placeholder: "e.g. @qovira/theme@1.0.2, or website commit a1b2c3d"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug — what you saw, and what you expected instead.
+      placeholder: Tell us what went wrong, and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: A minimal, ordered list someone else can follow to see the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Do '...'
+        3. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or output
+      description: Paste any error messages, stack traces, or console output. Automatically formatted, no backticks needed.
+      render: shell
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Where you saw this — browser, OS, Node version, as relevant.
+      placeholder: "e.g. Firefox 139 on Linux, Node 24.1"
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How badly does this block you?
+      options:
+        - Low — minor / cosmetic
+        - Medium — a feature is degraded but usable
+        - High — a feature is broken with no workaround
+        - Critical — data loss, security, or a full outage
+    validations:
+      required: true

@@ -1,0 +1,11 @@
+# Org-wide issue-template chooser. Inherited by every qovira repo that does not
+# define its own .github/ISSUE_TEMPLATE/config.yml. URLs are literal here (they
+# cannot be templated per-repo), so they point at org-level destinations.
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & Discussion
+    url: https://github.com/orgs/qovira/discussions
+    about: Ask questions and discuss usage here — not in the issue tracker.
+  - name: Security Vulnerability
+    url: mailto:security@omnilium.com
+    about: Report security issues privately by email — please do not open a public issue.
