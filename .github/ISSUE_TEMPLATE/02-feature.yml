@@ -6,9 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for the suggestion. Please **search existing issues and
-        [discussions](https://github.com/orgs/qovira/discussions)** first — the
-        idea may already be on the table.
+        Thanks for the suggestion. Please **search existing issues and [discussions](https://github.com/orgs/qovira/discussions)** first — the idea may already be on the table.
   - type: checkboxes
     attributes:
       label: Pre-flight

@@ -6,8 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to file a report. Please **search existing
-        issues** first — a quick check saves everyone a round-trip.
+        Thanks for taking the time to file a report. Please **search existing issues** first — a quick check saves everyone a round-trip.
   - type: checkboxes
     attributes:
       label: Pre-flight
